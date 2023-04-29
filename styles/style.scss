@@ -1,9 +1,14 @@
+$primary-dark: #0a677c;
+$primary-accent: #0092b3;
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: $primary-dark;
 }
 
 a {
@@ -33,6 +38,22 @@ a {
   }
   .header .nav-item {
     padding-left: 50px;
+    a { color: $primary-dark;
+      transition: all .2s ease-in-out;
+      &.active {font-weight: bold;
+        color: $primary-accent;
+        transition: all .2s ease-in-out;
+      }
+      &:hover {
+        color: $primary-accent;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-color: $primary-accent;
+        text-underline-position: under;
+        text-underline-offset: 3px;
+        transition: all .2s ease-in-out;
+      }
+    }
   }
   .header .navbar {
     padding: 10px 0px;
@@ -97,17 +118,29 @@ a {
     border-top: 1px solid #eaeaea;
     justify-content: center;
     align-items: center;
+    div.col-md-6 {
+      max-width: 200px;
+      margin: 0 auto;
+      a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-grow: 1;
+        text-decoration: none;
+        color: $primary-dark;
+        transition:all .2s ease-in-out;
+        font-weight: 500;
+        &:hover {
+          color: $primary-accent;
+          transition:all .2s ease-in-out;
+        }
+      }
+    }
   }
-  
-  .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
+
   
   .title a {
-    color: #0070f3;
+    color: $primary-dark;
     text-decoration: none;
   }
   

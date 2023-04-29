@@ -9,6 +9,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import { useRouter } from 'next/router';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,9 @@ const Header = () => {
     }
   }
 
+  const router = useRouter()
+  const { url } = router.query
+
   return (
     <div className={`header${sticky ? ' sticky' : ''}`}>
       <Navbar light expand="md">
@@ -36,16 +40,16 @@ const Header = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/" className={router.pathname == "/" ? "active" : ""}>Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#feature">Features</NavLink>
+                <NavLink href="/resume" className={router.pathname == "/resume" ? "active" : ""}>Resume</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#service">Services</NavLink>
+                <NavLink href="/case-studies" className={router.pathname == "/case-studies" ? "active" : ""}>Case Studies</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink href="/writing" className={router.pathname == "/writing" ? "active" : ""}>Writing</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
