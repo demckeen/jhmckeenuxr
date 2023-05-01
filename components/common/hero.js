@@ -1,6 +1,7 @@
 import next from 'next';
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Image from 'next/image';
 
 const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, url}) => {
   return (
@@ -19,7 +20,6 @@ const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, url}) =
         </Row>
       </Container>
       <div className="hero-img">
-        <img className='hero' src={imgUrl} alt={imgAlt}></img>
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import next from 'next';
 import React from 'react';
+import Image from 'next/image';
 import { Container, Row, Col } from 'reactstrap';
 
 const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, imgCaption}) => {
@@ -17,7 +18,7 @@ const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, imgCapt
           </Col>
           <Col lg={6}>
             <div className="mt-5 mt-lg-0 img-box">
-              <img src={imgUrl} alt={imgAlt} className="img-fluid mx-auto d-block section-img"/>
+              <Image src={imgUrl} alt={imgAlt} width="384px" height="534px" className="img-fluid mx-auto d-block section-img"/>
               {imgCaption ? <p className="caption">{imgCaption}</p> : ""}
             </div>
           </Col>
