@@ -47,7 +47,7 @@ export default function Writing() {
                 <li>&lsquo;This condition was greatly preferred over that condition.&rsquo;</li>
                 <li>&lsquo;This condition led to increased conversion numbers.&rsquo;</li>
             </ul>  
-            <p className="follow-tag">Ok, cool, let's go with that condition then.</p>
+            <p className="follow-tag">Ok, cool, let&apos;s go with that condition then.</p>
             <p>
             Generative research is more about <strong>helping build understandings of the cognitive strategies employed by users, or their mental models.</strong> The results of tactical research may align with the understandings taken from generative research, but on their own they are too insubstantial to be the basis for forming anything as complex as a mental model, on their own.
             </p>

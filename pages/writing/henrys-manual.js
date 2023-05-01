@@ -13,7 +13,7 @@ export default function Writing() {
       <Splash pageTitle="Henry's User Manual" mainSaying="" textBody="" actionButton="" imgUrl="/images/typewriter.jpg" imgAlt="a typewriter sitting on dark rustic wood plank surface"/>
       <div className="blog container">
         <div className="blog">
-          <p className="title">Henry's User Manual</p>
+          <p className="title">Henry&#39;s User Manual</p>
           <p className="tagline"></p>
           <p className="content"></p>
         </div>
