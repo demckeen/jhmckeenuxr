@@ -15,23 +15,29 @@ export default function Writing() {
       <div className="writing container">
         <div className="card blog" id="1">
           <Link href="/writing/generative-vs-tactical">
-          <span className="type">blog</span>
-          <p className="title">Generative vs. Tactical Research</p>
-          <p className="tagline"></p>
+            <a>
+              <span className="type">blog</span>
+              <p className="title">Generative vs. Tactical Research</p>
+              <p className="tagline"></p>
+            </a>
           </Link>
         </div>
         <div className="card article" id="2">
           <Link href="/writing/title">
-          <span className="type">article</span>
-          <p className="title"></p>
-          <p className="tagline"></p>
+            <a>
+              <span className="type">article</span>
+              <p className="title"></p>
+              <p className="tagline"></p>
+            </a>
           </Link>
         </div>
         <div className="card blog" id="3">
           <Link href="/writing/title">
-          <span className="type">blog</span>
-          <p className="title"></p>
-          <p className="tagline"></p>
+            <a>
+              <span className="type">blog</span>
+              <p className="title"></p>
+              <p className="tagline"></p>
+            </a>
           </Link>
         </div>
       </div>
