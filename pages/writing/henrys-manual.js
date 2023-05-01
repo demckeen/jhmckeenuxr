@@ -6,7 +6,7 @@ export default function Writing() {
   return (
     <div>
       <Head>
-        <title>Henry's User Manual</title>
+        <title>Henry&#39;s User Manual</title>
         <meta name="Writing by J. Henry McKeen" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
