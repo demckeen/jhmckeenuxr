@@ -35,8 +35,9 @@ const Header = () => {
     <div className={`header${sticky ? ' sticky' : ''}`}>
       <Navbar light expand="md">
         <Container className={'navflex'}>
-          <NavbarBrand href="/">LOGO</NavbarBrand>
-          <NavbarToggler onClick={toggle} />
+          <NavbarBrand href="/">
+            <img className="logo-img" src="/images/kingofcarbs-icon.png" alt="icon image of playing card styled like king holding fries and corn-dog and an H in the corner, titled king of carbs"></img>
+          </NavbarBrand>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem>
@@ -53,6 +54,7 @@ const Header = () => {
               </NavItem>
             </Nav>
           </Collapse>
+          <NavbarToggler onClick={toggle} />
         </Container>
       </Navbar>
     </div>
