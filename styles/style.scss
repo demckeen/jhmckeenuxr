@@ -788,6 +788,9 @@ div.writing.container {
     max-width: 600px !important;
     height: auto;
     margin: 1rem 0;
+      &.centered {
+        margin: 1rem auto;
+      }
     }
 
   }

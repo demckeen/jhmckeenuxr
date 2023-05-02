@@ -85,6 +85,9 @@ export default function Writing() {
             </p>
             <p>The generative question would have given us a broader and deeper understanding of the user&apos;s needs when engaged in global searches, helping us to generalizable-y predict the best possible outcome more easily. Tact-ify-ing the question makes us rely on tight, shallow knowledge and little by little the tool becomes better and better over time (with likely occasional dips when we make incorrect predictions and are forced to correct - most likely more frequently dipping than if we had the generative/foundational knowledge in the first place).</p>
             <p>This is why it&apos;s so critical to come to your researcher with your question in mind, first and foremost. Then you and the researcher can discuss all of the other variables (time, resources, etc) that will also influence how the research must be carried out. There will almost always be tension between the method which will maintain the most methodological rigor and highest confidence, and the amount of resources which can be allotted for the research. The compromise which most ideally meets your organizations&apos; needs in THIS instance, is what you and your researcher (and potentially any other critical stakeholders) need to come into agreement on as quickly as possible.</p>
+            <div className="blog-img-box centered">
+              <Image src="/images/defining_the_question.png" width="800" height="966"></Image>
+            </div>
           </div>
         </div>
       </div>
