@@ -17,28 +17,41 @@ export default function Writing() {
           <Link href="/writing/generative-vs-tactical">
             <a>
               <span className="type">blog</span>
-              <p className="title">Generative vs. Tactical Research</p>
-              <p className="tagline"></p>
+              <div className="info-text">
+                <p className="title">Generative vs. Tactical Research</p>
+                <p className="tagline"></p>
+              </div>
             </a>
           </Link>
         </div>
         <div className="card article" id="2">
-          <Link href="/writing/title">
-            <a>
-              <span className="type">article</span>
-              <p className="title"></p>
+          <a href="https://www.uxmatters.com/mt/archives/2018/11/presenting-ux-research-findings-using-the-jobs-to-be-done-framework.php" target="_blank" rel="noreferrer">
+            <span className="type">article</span>
+            <div className="info-text">
+              <p className="title">Presenting UX Research Findings Using the Jobs to Be Done Framework</p>
               <p className="tagline"></p>
+            </div>
+          </a>
+        </div>
+        <div className="card blog" id="3">
+          <Link href="/writing/henrys-manual">
+            <a>
+              <span className="type">blog</span>
+              <div className="info-text">
+                <p className="title">Henry's User Manual</p>
+                <p className="tagline">A guide to working with your UX Researcher</p>
+              </div>
             </a>
           </Link>
         </div>
-        <div className="card blog" id="3">
-          <Link href="/writing/title">
-            <a>
-              <span className="type">blog</span>
-              <p className="title"></p>
+        <div className="card article" id="4">
+          <a href="https://www.uxmatters.com/mt/archives/2019/02/the-pitfalls-of-personas-and-advantages-of-jobs-to-be-done.php" target="_blank" rel="noreferrer">
+            <span className="type">article</span>
+            <div className="info-text">
+              <p className="title">The Pitfalls of Personas and the Advantages of Jobs to Be Done</p>
               <p className="tagline"></p>
-            </a>
-          </Link>
+            </div>
+          </a>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Publication = () => {
         <h2>UX Research Blog Publucations</h2>
         <div className="articles">
           { articles.map((article, key) =>                       
-            <a href={article.link} className="article" key={key} >
+            <a href={article.link} target="_blank" rel="noreferrer" className="article" key={key} >
               {article.title}
             </a> 
             )
