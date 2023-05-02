@@ -740,6 +740,14 @@ div.writing.container {
 .blog.container {
   max-width: 900px;
   margin: 3rem auto;
+  .in-text-link {
+    color: $primary-accent;
+    transition: all .2s ease-in-out;
+    &:hover {
+      color: $primary-dark;
+      transition: all .2s ease-in-out;
+    }
+  }
   p.title {
     color: $primary-accent;
     font-size: 1.5rem;
