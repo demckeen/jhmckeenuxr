@@ -51,6 +51,9 @@ export default function Writing() {
             <p>
             Generative research is more about <strong>helping build understandings of the cognitive strategies employed by users, or their mental models.</strong> The results of tactical research may align with the understandings taken from generative research, but on their own they are too insubstantial to be the basis for forming anything as complex as a mental model, on their own.
             </p>
+            <div className='blog-img-box'>
+              <Image src="/images/gen-v-tac-table.png" width="800" height="1072" className="blog-table"></Image>
+            </div>
             <p className='section-title'>Generative and Tactical Research Evolve One Another</p>
             <p>In a perfect world, generative research would always come first. Generative findings would provide the complex understanding of a user&apos;s needs, perceptions, and expectations which inspire the hypothesized stimuli in tactical tests. In turn, as the patterns of responses to tactical tests start to shift out of alignment with generative models of understanding (because technology and people are both always changing), that reveals the need for further generative research to understand what needs, perceptions, and expectations are causing these shifts, and how they might be properly addressed tactically from this point on.</p>
             <p>
