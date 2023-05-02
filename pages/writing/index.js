@@ -38,7 +38,7 @@ export default function Writing() {
             <a>
               <span className="type">blog</span>
               <div className="info-text">
-                <p className="title">Henry's User Manual</p>
+                <p className="title">Henry&apos;s User Manual</p>
                 <p className="tagline">A guide to working with your UX Researcher</p>
               </div>
             </a>
