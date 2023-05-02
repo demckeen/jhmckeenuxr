@@ -13,7 +13,7 @@ export default function Writing() {
       </Head>
       <Splash pageTitle="UX Writing" mainSaying="" textBody="" actionButton="" imgUrl="/images/typewriter.jpg" imgAlt="a typewriter sitting on dark rustic wood plank surface"/>
       <div className="writing container">
-        <div className="card blog" id="1">
+        <div className="card blog" id="first">
           <Link href="/writing/generative-vs-tactical">
             <a>
               <span className="type">blog</span>
@@ -24,7 +24,7 @@ export default function Writing() {
             </a>
           </Link>
         </div>
-        <div className="card article" id="2">
+        <div className="card article" id="second">
           <a href="https://www.uxmatters.com/mt/archives/2018/11/presenting-ux-research-findings-using-the-jobs-to-be-done-framework.php" target="_blank" rel="noreferrer">
             <span className="type">article</span>
             <div className="info-text">
@@ -33,7 +33,7 @@ export default function Writing() {
             </div>
           </a>
         </div>
-        <div className="card blog" id="3">
+        <div className="card blog" id="third">
           <Link href="/writing/henrys-manual">
             <a>
               <span className="type">blog</span>
@@ -44,7 +44,7 @@ export default function Writing() {
             </a>
           </Link>
         </div>
-        <div className="card article" id="4">
+        <div className="card article" id="fourth">
           <a href="https://www.uxmatters.com/mt/archives/2019/02/the-pitfalls-of-personas-and-advantages-of-jobs-to-be-done.php" target="_blank" rel="noreferrer">
             <span className="type">article</span>
             <div className="info-text">

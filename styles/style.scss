@@ -696,9 +696,12 @@ div.writing.container {
       grid-template-columns: 1fr;
       grid-template-rows: 20px 1fr;
       text-decoration: none;
-      color: $primary-dark;
+      color: white;
+      text-shadow: 1px 1px 3px rgb(3, 36, 52);
+      transition: all .2s ease-in-out;
       &:hover {
-        color: $primary-accent;
+        color: $primary-light;
+        transition: all .2s ease-in-out;
       }
       span.type {
         text-transform: uppercase;
@@ -714,6 +717,22 @@ div.writing.container {
         font-size: 12pt;
         text-align: center;
       }
+    }
+    &.blog#first {
+      background: url('/images/gen-tac.jpg');
+      background-size: contain;
+    }
+    &.article#second {
+      background: url('/images/jobs-article.jpg');
+      background-size: contain;
+    }
+    &.blog#third {
+      background: url('/images/diagram.jpg');
+      background-size: contain;
+    }
+    &.article#fourth {
+      background: url('/images/pitfalls.png');
+      background-size: contain;
     }
   }
 }

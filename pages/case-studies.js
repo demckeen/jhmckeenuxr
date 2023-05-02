@@ -11,6 +11,9 @@ export default function CaseStudies() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Splash pageTitle="Case Studies" mainSaying="" textBody="" actionButton="" imgUrl="" imgAlt=""/>
+      <div className="main container">
+        <h2>Coming Soon</h2>
+      </div>
     </div>
   )
 }
