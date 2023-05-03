@@ -58,7 +58,7 @@ export default function Groceries() {
                 <div className="test-q-block">
                     <div className="gen-spec">
                         <p id="one">General</p>
-                        <div class="line-vertical arrow-down"></div>
+                        <div className="line-vertical arrow-down"></div>
                         <p id="three">Specific</p>
                     </div>
                     <ul>
