@@ -55,7 +55,7 @@ export default function Groceries() {
               <li>Increase click-through rates even MORE by increasing budget specifically towards contextually aligned pages.</li>
             </ul>
             <p>
-              Being able to fluidly manipulate these strategies was valuable for the team, as car dealerships are frequently more motivated to push for sales during certain time periods in monthly cycles.  One strategy might be optimized for the first two weeks of the month, while another might be optimized for the last two weeks of the month.  Overall, we were in a better position to compliment the client’s needs in a dynamic manner while still being measured with costs.
+              Being able to fluidly manipulate these strategies was valuable for the team, as car dealerships are frequently more motivated to push for sales during certain time periods in monthly cycles.  One strategy might be optimized for the first two weeks of the month, while another might be optimized for the last two weeks of the month.  Overall, we were in a better position to compliment the client&apos;s needs in a dynamic manner while still being measured with costs.
             </p>
           </div>
         </div>
