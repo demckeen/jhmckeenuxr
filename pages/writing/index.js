@@ -53,6 +53,17 @@ export default function Writing() {
             </div>
           </a>
         </div>
+        <div className="card blog" id="fifth">
+          <Link href="/writing/research-philosophy">
+            <a>
+              <span className="type">blog</span>
+              <div className="info-text">
+                <p className="title">My Research Philosophy</p>
+                <p className="tagline"></p>
+              </div>
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   )

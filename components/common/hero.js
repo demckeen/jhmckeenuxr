@@ -1,4 +1,3 @@
-import next from 'next';
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';

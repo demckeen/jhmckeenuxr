@@ -1,4 +1,3 @@
-import next from 'next';
 import React from 'react';
 
 const Splash = ({pageTitle, subHead, imgUrl, imgAlt, url, type}) => {
