@@ -758,7 +758,7 @@ div.writing.container {
     }
     &.case-study#second {
       background: url('/images/auto.jpg');
-      background: no-repeat;
+      background: contain;
     }
   }
 }
