@@ -24,7 +24,9 @@ export default function CaseStudies() {
             </a>
           </Link>
         </div>
-        <div className="card case-study" id="second">
+        <div className="card case-study" id="second" style={{
+      backgroundImage: `url("/images/ads.jpg")`,
+    }}>
         <Link href="/case-studies/ads">
             <a>
               <span className="type">case study</span>
