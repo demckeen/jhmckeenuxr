@@ -47,7 +47,7 @@ const Footer = () => {
         <Row className="mt-1">
           <Col md={12}>
             <div className="text-center text-muted copyright">
-              <p className="mb-0 f-15">2023 © J. Henry McKeen</p>
+              <p className="mb-0 f-15">2026 © J. Henry McKeen</p>
             </div>
           </Col>
         </Row>
