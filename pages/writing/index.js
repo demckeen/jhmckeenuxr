@@ -15,13 +15,11 @@ export default function Writing() {
       <div className="writing container">
         <div className="card blog" id="first">
           <Link href="/writing/generative-vs-tactical">
-            <a>
               <span className="type">blog</span>
               <div className="info-text">
                 <p className="title">Generative vs. Tactical Research</p>
                 <p className="tagline"></p>
               </div>
-            </a>
           </Link>
         </div>
         <div className="card article" id="second">
@@ -35,13 +33,11 @@ export default function Writing() {
         </div>
         <div className="card blog" id="third">
           <Link href="/writing/henrys-manual">
-            <a>
               <span className="type">blog</span>
               <div className="info-text">
                 <p className="title">Henry&apos;s User Manual</p>
                 <p className="tagline">A guide to working with your UX Researcher</p>
               </div>
-            </a>
           </Link>
         </div>
         <div className="card article" id="fourth">
@@ -55,13 +51,11 @@ export default function Writing() {
         </div>
         <div className="card blog" id="fifth">
           <Link href="/writing/research-philosophy">
-            <a>
               <span className="type">blog</span>
               <div className="info-text">
                 <p className="title">My Research Philosophy</p>
                 <p className="tagline"></p>
               </div>
-            </a>
           </Link>
         </div>
       </div>

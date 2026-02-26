@@ -6,7 +6,7 @@ export default function Groceries() {
     return (
       <div>
         <Head>
-          <title>Automotive Ads &amp; Targeted Ad&#8209;Display</title>
+          <title>Automotive Ads &amp; Targeted Ad&#8209;Display - Case Study</title>
           <meta name="Writing by J. Henry McKeen" content="" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -37,7 +37,7 @@ export default function Groceries() {
               The experiment involved having participants going through a 3x3x2 set with randomized trials. They were shown a prime (either a home screen, product listing page, or product detail page) a series of masks (visual noise to return starting focus position to baseline) and a retargeted ad (either aligned or not aligned to level, in a page either aligned or not aligned in terms of thematic content). These exposures were extremely brief, on the order of a half second.
             </p>
             <div className='img-box ads3x3'>
-              <Image src="/images/3x3x2.png" width="2401px" height="2573px" alt="graphic representing the two sets of 3x3 trials with either aligned or unaligned thematic content"></Image>
+              <Image src="/images/3x3x2.png" width="2401" height="2573" alt="graphic representing the two sets of 3x3 trials with either aligned or unaligned thematic content"></Image>
             </div>
             <p>
               After the participants had gone through the exposures, we explained the purpose of the experimented and asked them to predict if their results would show any consistently differentiating patterns and in what direction. The participants were all convinced there would be no consistent patterns differentiating any of the variable states. We might as well have been trying to convince them that I had magic powers.

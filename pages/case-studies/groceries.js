@@ -6,7 +6,7 @@ export default function Groceries() {
     return (
       <div>
         <Head>
-          <title>Groceries &amp; Gig&#8209;Economy</title>
+          <title>Groceries &amp; Gig&#8209;Economy - Case Study</title>
           <meta name="Writing by J. Henry McKeen" content="" /> 
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -21,7 +21,7 @@ export default function Groceries() {
                 <p>This effort was supporting delivery workers (making money through a gig-economy application) purchasing and delivering groceries for online consumers. I like this case study, because it represents a big win, but also a failure on our parts. It is a story of delayed victory, won only after hardfought redemption. It starts before I had even begun working at the company, and the designers were forced to try to work towards solutions without the benefit of a researcher on the team.</p>
                 <p>The design team had met with the data science team, discussing how there seemed to be a lot of late deliveries and one of the variables predicting an increased likelihood of late delivery was if the order had several &ldquo;out-of-stock&rdquo; (OOS) items. Customers make complaints with late orders, and they are given credits to keep their loyalty, eating into corporate profits. The customers also tend to tip the delivery workers less on late orders. Nobody comes out of the incident happy. The next stop for the design team was going to the service support group to find out if there were delivery workers making complaints specifically about dealing with OOS items. A number of themes come up in the complaints made regarding OOS items. The design team decides one specific theme will be their focus for a proposed solution: &ldquo;Sometimes when a product is out of stock, and it&apos;s an item I am not familiar with, it&apos;s hard to judge what would be an appropriate substitution to either purchase or offer to the customer.&rdquo;</p>
                 <div className='img-box workflow'>
-                    <Image src="/images/workflow.png" width="1000px" height="327px"></Image>
+                    <Image src="/images/workflow.png" width="1000" height="327"></Image>
                 </div>
                 <p>They don&apos;t REALLY know if that&apos;s the issue driving lateness, but they know it&apos;s the one that they can address while incurring the least possible pushback from other groups in the company. So they say, &ldquo;we can use the data from past times an item was OOS, what was deemed an acceptable substitution and provide those as suggestions to the delivery worker.&rdquo; They put a lot of effort into building a very high-fidelity prototype and I show up just in time to put it through usability testing.</p>
                 <div className='presentation-block'>
@@ -43,7 +43,7 @@ export default function Groceries() {
                         </li>
                     </ul>
                     <div className='img-box workflow-issues'>
-                        <Image src="/images/workflow_issues.png" width="600px" height="795px"></Image>
+                        <Image src="/images/workflow_issues.png" width="600" height="795"></Image>
                     </div>
                 </div>
                 <p>This is where I, as the brand new UX Researcher, have to let them know that had I been here when this effort had started, I would have suggested holding off on proposing solutions, and conducting generative research instead. Since we were already at the point of having a testable solution ready to go, the compromise was to do a mixed-method usability and concept test, with comprehensive debriefing interviews attached.</p>
@@ -77,17 +77,17 @@ export default function Groceries() {
                 <div className="presentation-block" id="two">
                     <div className="img-box-one">
                         <p className='image-heading'>Relied on Data Like This</p>
-                        <Image src="/images/workflow_issues.png" width="800px" height="1061" alt="table showing a choice to work on theme 4"></Image>
+                        <Image src="/images/workflow_issues.png" width="800" height="1061" alt="table showing a choice to work on theme 4"></Image>
                     </div>
                     <div className="img-box-two">
                         <p className='image-heading'>Needed Data Like This</p>
-                        <Image src="/images/jobs_atlas.png" width="1200px" height="1221px"></Image>
+                        <Image src="/images/jobs_atlas.png" width="1200" height="1221"></Image>
                     </div>
                 </div>
                 <p>
                     We took the qualitative data from the debriefing interviews and were able to define where the real culprit issue was. We do that by defining where the preponderance of their thought processes are focused (Jobs Drivers), what actions they are doing to try to satisfy the needs and motivations expressed in those thought processes (Behaviors), the reasons why those actions to not lead to the satisfaction of said needs and motivations (Painpoints, Obstacles, & Opportunities, and the delivery worker&apos;s ultimate vision of the optimal scenario outcome (Success Criterion). The resulting Jobs Atlas, tells us where to focus, what tactical strategies are more likely to be efficacious, and what has to happen in order for the delivery workers to perceive it as a good user experience.</p>
                 <div className='img-box workflow-issues'>
-                    <Image src="/images/workflow_amended.png" width="800px" height="1061px"></Image>
+                    <Image src="/images/workflow_amended.png" width="800" height="1061"></Image>
                 </div>
                 <p>
                     The delivery workers don&apos;t want it to be EASIER to send texts to the customer, they want to know the desired substitution without having to text the customer in the first place. Sure, it&apos;s not BAD to hear corporate&apos;s suggestions about likely good substitutes on OOS products. Yet, having those good substitutes simply being effective a higher percentage of the time is not ultimately meaningful in terms of reducing their time spent working. Knowing what the CUSTOMER deems as a good substitute is FAR more effective. So, maybe customers should be able to list good substitutes as they are picking out items. Selecting secondary options that are acceptable in the absence of the first choice being available would be ideal. And maybe we should STRESS that they do it when they are selecting items that have a high probability of being OOS.

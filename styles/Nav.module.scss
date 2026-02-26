@@ -1,0 +1,98 @@
+$primary-dark: #0a677c;
+$primary-accent: #0092b3;
+$primary-mid: #1bb7da;
+$primary-light: #c1f4ff;
+
+.navbar-toggler:focus {box-shadow: none !important;}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(193, 244, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.header .navflex {
+  align-items: self-start !important;
+  justify-content: space-between;
+  @media screen and (max-width: 400px) {
+    padding: 0;
+  }
+}
+.navbar-toggler {
+  border: none !important;
+  margin-top: 28px;
+  padding-right: 0 !important;
+  &:hover {
+    .navbar-toggler-icon:hover {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(10, 103, 124)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+  }
+}
+
+.header {
+    padding: 0px 0px;
+    position: relative;
+    z-index: 91;
+  .navbar {
+    line-height: 1.2;
+    padding: 10px 15px;
+    .navflex {
+      display: flex;
+      .collapse.navbar-collapse {
+        padding: 10px 15px;
+        .navbar-nav {
+          .nav-item {
+            padding-left: 50px;
+            a.nav-link { color: $primary-accent;
+              transition: all .2s ease-in-out;
+              font-size: 14pt;
+              &.active {font-weight: bold;
+                color: $primary-accent;
+                transition: all .2s ease-in-out;
+              }
+              &:hover {
+                color: $primary-light;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-color: $primary-light;
+                text-underline-position: under;
+                text-underline-offset: 3px;
+                transition: all .2s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }    
+  } 
+  @media screen and (max-width: 767px) {
+    background-color: rgb(37, 36, 36);
+  }
+  @media screen and (max-width: 400px) {
+    .navbar {
+      .navflex {
+        .collapse.navbar-collapse {
+          padding: 0px;
+          &.show {
+            .nav-item {
+              padding-left: 20px;
+              a.nav-link {
+                font-size: 12pt;
+                transition: all .2s ease-in-out;
+              }
+            }
+            padding: 0px !important;
+          }
+          .nav-item {
+            padding-left: 20px;
+            a.nav-link {
+              font-size: 12pt;
+              transition: all .2s ease-in-out;
+              line-height: 1.2;
+            }
+          }
+        }
+      }
+    }
+  }
+}

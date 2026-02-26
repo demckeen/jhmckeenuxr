@@ -9,7 +9,7 @@ const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, imgCapt
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <p className="page-title">{pageTitle}</p>
+              <h2 className="page-title">{pageTitle}</h2>
               <p className="main-saying">{mainSaying}</p>
               <p className="subhead">{subHead}</p>
               <p className="text-body">{textBody}</p>
@@ -17,7 +17,7 @@ const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, imgCapt
           </Col>
           <Col lg={6}>
             <div className="mt-5 mt-lg-0 img-box">
-              <Image src={imgUrl} alt={imgAlt} width="384px" height="534px" className="img-fluid mx-auto d-block section-img"/>
+              <Image src={imgUrl} alt={imgAlt} width="384" height="534" className="img-fluid mx-auto d-block section-img"/>
               {imgCaption ? <p className="caption">{imgCaption}</p> : ""}
             </div>
           </Col>

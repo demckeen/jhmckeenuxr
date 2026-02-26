@@ -1,15 +1,19 @@
+"use client"
+
 import React, { useState, useEffect } from 'react';
-import {
-  Container,
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink
-} from 'reactstrap';
+// import {
+//   Container,
+//   Collapse,
+//   Navbar,
+//   NavbarToggler,
+//   NavbarBrand,
+//   Nav,
+//   NavItem,
+//   NavLink
+// } from 'reactstrap';
+import Navbar from './navbar';
 import { useRouter } from 'next/router';
+import styles from '../../styles/Nav.module.scss';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,10 +37,11 @@ const Header = () => {
 
   return (
     <div className={`header${sticky ? ' sticky' : ''}`}>
-      <Navbar light expand="md">
+      <Navbar />
+      {/* <Navbar light expand="md">
         <Container className={'navflex'}>
           <NavbarBrand href="/">
-            <img className="logo-img" src="/images/kingofcarbs-icon.png" alt="icon image of playing card styled like king holding fries and corn-dog and an H in the corner, titled king of carbs"></img>
+            <img className="logo-img" src="/images/kingofcarbs-icon.png" alt="icon size illustration playing card styled like king holding fries and corn-dog and letter H in the corners"></img>
           </NavbarBrand>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
@@ -56,7 +61,7 @@ const Header = () => {
           </Collapse>
           <NavbarToggler onClick={toggle} />
         </Container>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 }

@@ -13,26 +13,31 @@ export default function CaseStudies() {
       </Head>
       <Splash pageTitle="Case Studies" mainSaying="" textBody="" actionButton="" imgUrl="" imgAlt="" type=""/>
       <div className="case-studies writing container">
+        <div className="card case-study" id="third">
+          <Link href="/case-studies/cranes">
+            <span className="type">case study</span>
+            <div className="info-text">
+              <p className="title">Versatile&apos;s Cranes</p>
+              <p className="tagline"></p>
+            </div>
+          </Link>
+        </div>
         <div className="card case-study" id="first">
           <Link href="/case-studies/groceries">
-            <a>
-              <span className="type">case study</span>
-              <div className="info-text">
-                <p className="title">Groceries &amp; Gig&#8209;Economy</p>
-                <p className="tagline"></p>
-              </div>
-            </a>
+            <span className="type">case study</span>
+            <div className="info-text">
+              <p className="title">Groceries &amp; Gig&#8209;Economy</p>
+              <p className="tagline"></p>
+            </div>
           </Link>
         </div>
         <div className="card case-study" id="second">
-        <Link href="/case-studies/ads">
-            <a>
+          <Link href="/case-studies/ads">
               <span className="type">case study</span>
               <div className="info-text">
                 <p className="title">Automotive Sales &amp; Targeted Ad&#8209;Display</p>
                 <p className="tagline"></p>
               </div>
-            </a>
           </Link>
         </div>
       </div>

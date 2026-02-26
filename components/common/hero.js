@@ -9,7 +9,7 @@ const Hero = ({pageTitle, mainSaying, subHead, textBody, imgUrl, imgAlt, url}) =
         <Row className="align-items-center">
           <Col lg={12}>
             <div className="pr-lg-5">
-              <p className="text-uppercase page-title">{pageTitle}</p>
+              <h1 className="text-uppercase page-title">{pageTitle}</h1>
               <p className="main-saying">{mainSaying}</p>
               <p className="subhead">{subHead}</p>
               <p className="text-muted mb-4 pb-2">{textBody}</p>

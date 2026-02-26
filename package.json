@@ -11,7 +11,7 @@
   "dependencies": {
     "@mdi/font": "^7.2.96",
     "bootstrap": "^5.2.0",
-    "next": "^12.3.4",
+    "next": "^16.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "reactstrap": "^9.1.2",
