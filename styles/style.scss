@@ -766,16 +766,13 @@ div.writing.container {
   .card {
     border-radius: 5px;
     margin: 0 auto;
+    padding: 0;
     max-width: 300px;
     width: 300px;
     max-height: 300px;
     height: 300px;
-    padding: 25px;
     position: relative; 
-    display: block;
-    &:hover {
-      border-color: $primary-mid;
-    }   
+    display: block; 
     a {
       height: 100%;
       display: grid;
@@ -783,14 +780,18 @@ div.writing.container {
       grid-template-rows: 20px 1fr;
       text-decoration: none;
       color: white;
+      padding: 25px;
       text-shadow: 1px 1px 3px rgb(3, 36, 52);
+      background-color: rgba(34, 34, 34, 0.2);
       transition: all .2s ease-in-out;
+      z-index: 1;
       span.type {
         text-transform: uppercase;
         font-size: 10pt;
       }
       div.info-text {
         align-self: center;
+        transition: all .2s ease-in-out;
       }
       p.title {
         font-size: 20pt;
@@ -801,99 +802,45 @@ div.writing.container {
       }
     }
     &.blog#first {
-      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/images/gen-tac.jpg');
-      background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/gen-tac.jpg');
+        background: url('/images/gen-tac.jpg');
         background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.article#second {
       background: url('/images/jobs-article.jpg');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/jobs-article.jpg');
-        background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.blog#third {
       background: url('/images/diagram.jpg');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/diagram.jpg');
-        background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.blog#fifth {
       background: url('/images/philosophy.jpg');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/philosophy.jpg');
-        background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.article#fourth {
       background: url('/images/pitfalls.png');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/pitfalls.png');
-        background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.case-study#first {
       background: url('/images/groceries.jpg');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/groceries.jpg');
-        background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.case-study#second {
       background: url('/images/auto.jpg');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/auto.jpg');
-        background-size: contain;
-        transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
-      }
     }
     &.case-study#third {
       background: url('/images/cranes.png');
       background-size: contain;
-      transition: all .2s ease-in-out;
-      &:hover {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/cranes.png');
-        background-size: contain;
+    }
+    &:hover {
+      a { 
         transition: all .2s ease-in-out;
-        a {color: $primary-light;
-        transition: all .2s ease-in-out;}
+        background-color: rgba(34, 34, 34, 0.8); 
+        .info-text {
+          color: $primary-light;
+          transition: all .2s ease-in-out;
+        }
       }
     }
   }
@@ -1063,4 +1010,79 @@ div.writing.container {
     }
   }
   
+}
+
+.modal {
+  img{
+    max-width: 90vw;
+    width: 100%;
+    height: auto;
+  }
+  button {
+    all: unset;
+    width: 48px;
+    height: 48px;
+    background-color: $dark-screen;
+    display:flex;
+    justify-content: center;
+    svg {
+      width: 80%;
+      height: auto;
+      color: white;
+      align-self: center;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+      svg {
+        color:$primary-mid;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+  }
+  p.img-caption {
+    position: fixed;
+    bottom: 0;
+    left: 3.5vw;
+    width: 90vw;
+    background-color: $dark-screen;
+    padding: 5px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+.img-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
+  .img-thumbnail {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    padding: 0;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: fill;
+      transition: all 0.2s ease-in-out;
+    }
+    &:hover {
+      cursor: pointer;
+      img {
+        transform: scale(1.25);
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}
+
+.blog.container div.content.cranes {
+  .caption {
+    text-align: left;
+    font-size: .8rem;
+  }
 }
