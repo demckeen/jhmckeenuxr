@@ -41,7 +41,7 @@ export default function Groceries() {
                     {modalImage && <> <Image src={modalImage.src} alt={modalImage.alt} width={modalImage.width} height={modalImage.height} /> <p className='img-caption'>{modalImage.caption} </p> </>}
                 </Modal>    
                 </div>
-                <p className='caption'>Findings graphics, masked for private or proprietary information</p>
+                <p className='caption'>Findings graphics, masked for proprietary information</p>
                 <p>Upon completion of the interviews and the initial rounds of qualitative data synthesis (a combination of affinity mapping and iterative outlining), it became clear that these were two separate groups with meaningfully different (thought related) thought processes and behavioral inclinations. Separate Personas were constructed for each group, speaking to their motivations, behaviors, challenges, and necessary success criteria for positive product experience with Versatile. It could also be said that each Persona acted as a Jobs Atlas for doing the work associated with each of these roles. It wasn&apos;t just the design and development team that benefitted from these learnings either. The sales director had this information shared with the marketing firm employed by Versatile, so that curated messaging could be designed for each audience.  Many members of the sales team were former Superintendents and Project Managers. They were impressed that such a comprehensive and exhaustive depiction of the individuals filling these roles had been cultivated so quickly, and with such limited exposure.
                 </p>
             </div>
